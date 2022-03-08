@@ -1,9 +1,14 @@
+import React from "react"
+import ProgramOffer from "../components/ProgramOffer/ProgramOffer"
 
 
 const Checkout=()=>{
 
     return(
-        <p>lanas </p>
+        <React.Fragment>
+            <ProgramOffer/>
+        <span>lanas</span>
+        </React.Fragment>
     )
     }
 

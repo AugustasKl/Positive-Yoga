@@ -1,0 +1,28 @@
+.list{
+    display: flex;
+    margin:0 0 0.7rem 0; 
+    gap:1rem;
+    align-items: center;
+    justify-content: flex-start;
+   
+}
+
+.list img{
+    width: 2.2rem;
+    height: 2.2rem;
+}
+.text{
+    font-style: "Open Sans";
+
+}
+.title{
+    font-weight: 600;
+    font-size: 0.75rem;
+}
+.paragraph{
+    line-height: 0.7rem;
+    font-size: 0.55rem;
+    font-style: inherit;
+    font-weight: lighter;
+    color:#ccc ;
+}
