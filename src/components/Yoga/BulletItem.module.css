@@ -1,0 +1,12 @@
+.bullet{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 0.5rem;
+   
+}
+.text{
+    font-style: 'Open Sans';
+    color: #ccc;
+    font-weight: 700;
+}
