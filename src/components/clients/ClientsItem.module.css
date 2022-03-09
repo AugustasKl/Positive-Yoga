@@ -23,7 +23,11 @@
     padding: 0.5rem 0;
 }
 .image{
-    padding-bottom:0.75rem ;
+    padding-bottom:0.75rem;
+}
+.image img{
+    width:10rem;
+    height: 10rem;
 }
 
 .comment{

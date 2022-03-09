@@ -4,7 +4,6 @@ import BulletItem from './BulletItem'
 import classes from './BulletSection.module.css'
 
 const BulletSection =()=>{
-
     return(
         <React.Fragment>
         <div className={classes.list}>
@@ -16,8 +15,7 @@ const BulletSection =()=>{
                 key={bullet.id}
                 bullet={bullet.bulletpoint}
                 />
-            })}
-            
+            })}   
         </ul>
         </div>
         </React.Fragment>

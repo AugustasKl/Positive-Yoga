@@ -4,12 +4,11 @@
     gap:1rem;
     align-items: center;
     justify-content: flex-start;
-   
 }
 
 .list img{
-    width: 2.2rem;
-    height: 2.2rem;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 .text{
     font-style: "Open Sans";
@@ -17,11 +16,11 @@
 }
 .title{
     font-weight: 600;
-    font-size: 0.75rem;
+    font-size: 0.85rem;
 }
 .paragraph{
-    line-height: 0.7rem;
-    font-size: 0.55rem;
+    line-height: 1.3rem;
+    font-size: 0.65rem;
     font-style: inherit;
     font-weight: lighter;
     color:#ccc ;

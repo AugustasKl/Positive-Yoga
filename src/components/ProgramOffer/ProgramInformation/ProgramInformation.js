@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from './ProgramInformation.module.css'
-import { PROGRAM_DUMMY_DATA } from '../../../DUMMY_DATA/dummyData'
+import { PROGRAM_DUMMY_DATA } from '../../../DUMMY_DATA/dummyProgram'
 import ProgramInformationItem from './ProgramInformationItem'
 
 const ProgramInformation=()=>{

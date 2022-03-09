@@ -1,3 +1,4 @@
+import Button from '../utils/Button'
 import classes from './Clients.module.css'
 import ClientsList from './ClientsList'
 
@@ -6,7 +7,7 @@ const Clients=()=>{
         <section className={classes.clients}>
             <h2>Hear success stories from our clients</h2>
             <ClientsList/>
-            <button className={classes.button}> Get my plan</button>
+            <Button>Get my plan</Button>
         </section>
     )
 }

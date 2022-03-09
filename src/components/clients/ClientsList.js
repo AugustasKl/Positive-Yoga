@@ -1,4 +1,4 @@
-import { CLIENTS_DUMMY_DATA } from "../../DUMMY_DATA/dummyData"
+import { CLIENTS_DUMMY_DATA } from "../../DUMMY_DATA/dummyClients"
 import ClientsItem from "./ClientsItem"
 import classes from './ClientsList.module.css'
 const ClientsList=()=>{
