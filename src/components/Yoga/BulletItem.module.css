@@ -2,11 +2,11 @@
     list-style: none;
     display: flex;
     gap: 1rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.75rem;
    
 }
 .text{
     font-style: 'Open Sans';
-    color: #ccc;
+    color: #575555;
     font-weight: 700;
 }

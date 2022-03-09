@@ -10,8 +10,6 @@ const ProgramOffer=()=>{
     return(
         <React.Fragment>
             <section className={classes.program}>
-            <span className={classes.message}>Over <b>52 147</b> plans ordered.</span>
-            <h1>Get access to your yoga program now!</h1>
            <div className={classes.information}>
                <div className={classes.data}>
            <OfferDetails/>

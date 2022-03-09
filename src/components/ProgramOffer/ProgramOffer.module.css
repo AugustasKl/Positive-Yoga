@@ -5,10 +5,7 @@
   align-items: center;
   padding-top: 3rem;
 }
-.message {
-  font-size: 0.8rem;
-  font-family: 'Open Sans';
-}
+
 .information{
   
     display: flex;
