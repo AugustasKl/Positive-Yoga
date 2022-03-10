@@ -5,7 +5,6 @@ import QuestionList from './QuestionsList'
 const Questions=()=>{
 
   const buttonHandler=()=>{
-      console.log('labas')
       window.scrollTo(0,0)
   }
 

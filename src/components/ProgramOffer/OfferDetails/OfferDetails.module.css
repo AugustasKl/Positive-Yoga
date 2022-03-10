@@ -19,71 +19,11 @@
 .options h2 {
   margin-top: -0.5rem;
 }
-.radio {
-  padding: 0 4rem 0 0;
-  border: 2px solid #00000014;
-  border-radius: 10px;
-  display: flex;
-  cursor: pointer;
-}
 
-.container {
-  cursor: pointer;
-  display: flex;
-  width: 100%;
-  position: relative;
-  align-items: center;
-  user-select: none;
-}
-.container input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-}
-.option {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0 0.25rem;
-  margin-top: -0.2rem;
-}
-.discount {
-  background-color: #ffe082;
-  border-radius: 5px;
-  font-size: 0.7rem;
-  padding: 0.25rem;
-  font-weight: 600;
-}
-.title {
-  display: flex;
-  gap: 0.5rem;
-}
-.prices {
-  margin-top: -1.3rem;
-}
-.bold {
-  font-weight: 800;
-  font-size: 1.5rem;
-}
-.details {
-  margin-top: -1rem;
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
-}
 .highlight {
   color: #ff9b4e;
 }
-.checkmark {
-  position: absolute;
-  top: 40%;
-  right: 0;
-  height: 1.3rem;
-  width: 1.3rem;
-  background-color: #eee;
-  border-radius: 50%;
-  margin-right: -3rem;
-}
+
 .button {
   padding: 1rem 0;
   background: #ff9b4e;
@@ -94,31 +34,7 @@
   border: 1px solid #ff9b4e;
   width: 100%;
 }
-/* On mouse-over, add a grey background color */
-.container:hover input ~ .checkmark {
-  background-color: #ccc;
-}
 
-/* When the radio button is checked, add a blue background */
-.container input:checked ~ .checkmark {
-  /* background-color: #2196F3; */
-  background-image: url("../../../assets/svg/check.svg");
-}
-
-/* Create the indicator (the dot/circle - hidden when not checked) */
-.checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-/* Show the indicator (dot/circle) when checked */
-.container input:checked ~ .checkmark:after {
-  display: block;
-}
-.radio:hover {
-  border: 2px solid #ff9b4e;
-}
 .button:hover {
   color: #ff9b4e;
   background-color: #ffffff;

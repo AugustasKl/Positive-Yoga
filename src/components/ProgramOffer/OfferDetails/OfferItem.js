@@ -1,16 +1,12 @@
-import { useState } from 'react';
 import classes from './OfferItem.module.css'
 
 const OfferItem = (props) => {
     const {title, price, oldPrice, message, promo, newPrice}=props
-    // const [offer,setOffer]=useState(null)
     const changehandler=(event)=>{      
         console.log(event.target.value)
-        // setOffer(event.target.value)
         props.onSendSelectedData(event.target.value)
 }
 
-    // console.log(offer)
   
   return (
     <li>
@@ -34,7 +30,7 @@ const OfferItem = (props) => {
           </div>
           <input
             type="radio"
-            value="6 months plan"
+            value={title}
             name="radio"
             onChange={changehandler}
           />

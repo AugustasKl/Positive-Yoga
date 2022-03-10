@@ -1,24 +1,4 @@
-.form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: "Open Sans";
-    width: 100%;
-    font-size: 0.8rem;
-  }
-  
-  .options {
-    font-weight: 400;
-    margin-top: 0.5rem;
-  }
-  
-  .options li {
-    padding-bottom: 0.5rem;
-    list-style: none;
-  }
-  .options h2 {
-    margin-top: -0.5rem;
-  }
+
   .radio {
     padding: 0 4rem 0 0;
     border: 2px solid #00000014;
@@ -99,7 +79,7 @@
     background-color: #ccc;
   }
   
-  /* When the radio button is checked, add a blue background */
+  /* When the radio button is checked, add image */
   .container input:checked ~ .checkmark {
     /* background-color: #2196F3; */
     background-image: url("../../../assets/svg/check.svg");
@@ -115,9 +95,15 @@
   /* Show the indicator (dot/circle) when checked */
   .container input:checked ~ .checkmark:after {
     display: block;
+    border-color: #ff9b4e;
+    
   }
-  .radio:hover {
+  .radio:hover{
     border: 2px solid #ff9b4e;
+  }
+  .radio:focus{
+    border: 2px solid #ff9b4e;
+    border-color: #ff9b4e;
   }
   .button:hover {
     color: #ff9b4e;
