@@ -1,5 +1,7 @@
 import bulletPoint from './../../assets/svg/bulletPoint.svg'
 import classes from './BulletItem.module.css'
+
+
 const BulletItem=(props)=>{
 
     return(

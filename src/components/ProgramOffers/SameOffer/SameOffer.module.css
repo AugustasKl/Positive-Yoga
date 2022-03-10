@@ -1,0 +1,25 @@
+.offer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.header{
+    font-size: 1.85rem;
+    margin-bottom: -1rem;
+    font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+.offer{
+    margin-top: 0;
+}
+}
+
+@media (max-width: 768px) {
+    .header{
+    font-size: 1.65rem;
+    }
+}

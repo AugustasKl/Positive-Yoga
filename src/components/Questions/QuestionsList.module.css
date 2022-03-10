@@ -3,24 +3,22 @@
   flex-direction: column;
   width: 45rem;
   border-spacing: 1rem;
-  position: relative;
+
+  margin-top: -0.5rem;
 }
 
-.question img{
-    position: absolute;
-    top:0;
-    right: 0;
-    padding: 0.75rem;
+
+@media (max-width: 768px) {
+.list{
+  width: 40rem;
+  
 }
-.question {
-  margin: 0 0 1rem 0;
-  cursor: pointer;
-  border-radius: 10px;
-  border: 1px solid #ccc;
-  list-style: none;
-  font-family: "Open Sans";
-  box-shadow: 0px 18px 54px rgba(0, 0, 0, 0.04);
-  border-radius: 16px;
-  text-align: center;
-  padding: 0.75rem 4rem;
+
+}
+
+@media (max-width: 425px) {
+  .list{
+    width: 28rem;
+    margin-right: 2rem;
+  }
 }

@@ -8,18 +8,18 @@ export const DUMMY_QUESTIONS = [
     id:'q2',
     question: "Where I can access my plan?",
     answer:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "Your plan will be accessible in Positive Yoga's web app with a special link generated after your purchase.",
   },
   {
     id:'q3',
     question: "How can I cancel my subscription?",
     answer:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+    "You can manage or cancel your subscription by writing our customer support hello@positiveyoga.app",
   },
   {
     id:'q4',
     question: "Why this program is paid?",
     answer:
-      "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+      "We are aiming to offer our clients the best experience, which comes with a lot of work.  The entire yoga program is developed by our large team of experts that work long hours to prepare effective, trustworthy and enjoyable content and workouts that can help you to reach your goals. The program is also completely free of ads and is constantly being updated based on your feedback!",
   },
 ];

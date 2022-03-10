@@ -6,7 +6,7 @@
     color: #ffffff;
     cursor: pointer;
     border: 1px solid #ff9b4e;
-    width: 25rem;
+    width: 20rem;
   }
 
   .button:hover {
@@ -15,3 +15,11 @@
     border: 1px solid #ff9b4e;
   }
   
+  @media (max-width: 425px) {
+    .button{
+      width: 25rem;
+      font-size: 1rem;
+      padding: 1.2rem 0;
+    }
+
+  }

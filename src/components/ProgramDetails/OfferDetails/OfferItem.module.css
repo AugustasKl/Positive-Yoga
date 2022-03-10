@@ -40,6 +40,7 @@
   }
   .prices {
     margin-top: -1.3rem;
+    font-size: 1rem;
   }
   .bold {
     font-weight: 800;
@@ -111,3 +112,33 @@
     border: 1px solid #ff9b4e;
   }
   
+  @media (max-width:768px)  { 
+    .discount{
+      padding: 0.15rem;
+      font-size: 0.6rem;
+    }
+    .details{
+      font-size: 0.6rem;
+    }
+    .prices{
+      font-size: 0.8rem;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .radio{
+      width: 25rem;
+    }
+    .option{
+      padding: 0.4rem;
+    }
+    .title{
+      font-size: 0.9rem;
+    }
+    .details{
+      font-size: 0.9rem;
+    }
+    .discount {
+      padding: 0.4rem;
+    }
+  }

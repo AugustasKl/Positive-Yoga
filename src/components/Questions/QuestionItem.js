@@ -16,13 +16,9 @@ const QuestionItem = (props) => {
 
   return (
     <li className={classes.question} onClick={toggleAnswersHandler}>
-      <div className={classes.answer}>
-        {showAnswer ? <ArrowUp /> : <ArrowDown />}
-      </div>
+      <div className={classes.answer}>{showAnswer ? <ArrowUp /> : <ArrowDown />}</div>
       <div>{question} </div>
-      {showAnswer && quest === id && (
-        <AnswerItem data={answer} selectedQuestion={id} />
-      )}
+      {showAnswer && quest === id && (<AnswerItem data={answer} selectedQuestion={id} />)}
     </li>
   );
 };

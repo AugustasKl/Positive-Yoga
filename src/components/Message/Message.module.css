@@ -4,8 +4,20 @@
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
-}
-.message {
     font-size: 0.8rem;
     font-family: 'Open Sans';
-  }
+}
+@media (max-width:768px)  { 
+    .msg{
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .msg{
+        font-size: 1rem;
+        align-items: flex-start;
+        padding-left: 1rem;
+    }
+
+}

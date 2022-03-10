@@ -1,4 +1,4 @@
-import ProgramDetails from '../../ProgramDetails/ProgramDetails';
+import ProgramDetails from '../../ProgramDetails/ProgramDetails/ProgramDetails'
 import classes from './FirstOffer.module.css'
 
 const FirstOffer = () => {

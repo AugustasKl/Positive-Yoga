@@ -1,7 +1,7 @@
 import React from 'react'
-import OfferDetails from '../ProgramOffer/OfferDetails/OfferDetails'
-import SubscriptionMessage from '../ProgramOffer/OfferDetails/SubscriptionMessage'
-import ProgramInformation from '../ProgramOffer/ProgramInformation/ProgramInformation'
+import OfferDetails from '../OfferDetails/OfferDetails'
+import SubscriptionMessage from '../OfferDetails/SubscriptionMessage'
+import ProgramInformation from '../ProgramInformation/ProgramInformation'
 import classes from './ProgramDetails.module.css'
 
 const ProgramDetails=()=>{

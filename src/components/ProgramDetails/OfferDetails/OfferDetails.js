@@ -18,12 +18,10 @@ const OfferDetails = (props) => {
     <React.Fragment>
       <div className={classes.form}>
         <div className={classes.options}>
-          <h2>
-            {" "}
-            Choose your plan and get{" "}
-            <span className={classes.highlight}> 7 days free trial</span>{" "}
-          </h2>
-
+          <div className={classes.header}>
+          <h2> Choose your plan and get</h2>
+            <h2 className={classes.highlight}> 7 days free trial</h2>
+          </div>
           <ul>
             {DUMMY_OFFERS.map((offer) => {
               return (

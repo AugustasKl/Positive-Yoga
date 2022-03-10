@@ -16,3 +16,13 @@
     color: #FFFFFF;
     font-size: 0.8rem;
 }
+
+
+
+
+@media (max-width:768px)  { 
+    .promo h6{
+       font-size: 0.7rem;
+    }
+    
+    }

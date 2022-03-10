@@ -1,5 +1,6 @@
 import classes from './PhoneSection.module.css'
 import phoneImg from './../../assets/images/phone.png'
+import background from './../../assets/svg/background.svg'
 import React from 'react'
 const PhoneSection=()=>{
 

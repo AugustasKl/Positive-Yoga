@@ -1,10 +1,10 @@
 import React from "react"
-import Clients from "../components/clients/Clients"
+import Clients from "../components/Clients/Clients"
 import Yoga from "../components/Yoga/Yoga"
 import Questions from "../components/Questions/Questions"
-import SameOffer from "../components/SameOffer/SameOffer"
+import SameOffer from "../components/ProgramOffers/SameOffer/SameOffer"
 import Message from "../components/Message/Message"
-import FirstOffer from "../components/ProgramOffer/firstOffer/FirstOffer"
+import FirstOffer from "../components/ProgramOffers/FirstOffer/FirstOffer"
 const Checkout=()=>{
 
     return(

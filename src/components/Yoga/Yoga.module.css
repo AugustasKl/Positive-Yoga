@@ -2,5 +2,18 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 4rem;
+    margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+.yoga{
+    margin-top: -1rem;
+}
+
+}
+
+@media (max-width: 425px) {
+    .yoga{
+        flex-direction: column-reverse;
+    }
 }
