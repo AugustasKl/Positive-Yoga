@@ -1,9 +1,4 @@
-.list {
-  display: flex;
-  flex-direction: column;
-  width: 45rem;
-  border-spacing: 1rem;
-}
+
 .question {
   margin: 0 0 1rem 0;
   cursor: pointer;
@@ -42,3 +37,11 @@
    
   }
 }
+
+@media (max-width: 3755px) {
+  .question{
+    margin: 0 0 0.5rem 0;
+   
+  }
+}
+

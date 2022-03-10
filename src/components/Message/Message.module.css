@@ -21,3 +21,10 @@
     }
 
 }
+
+@media (max-width: 375px) {
+    .msg {
+      margin-left: 0.85rem;
+    }
+  }
+  

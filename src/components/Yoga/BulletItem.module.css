@@ -6,7 +6,7 @@
   align-items: center;
   font-style: "Open Sans";
   width: 90%;
-  font-weight: 400;
+  font-weight: 600;
 }
 .text {
   font-size: 0.8rem;
@@ -32,3 +32,17 @@
     }
 
 }
+
+@media (max-width: 375px) {
+    .bullet{
+        margin-left: -1rem;
+    }
+
+    .text{  
+        font-size: 0.85rem;
+        line-height: 1.1rem;
+    
+    }
+}
+
+

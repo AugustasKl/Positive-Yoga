@@ -35,3 +35,18 @@
     }
     
 }
+
+@media (max-width: 375px) {
+    .phone h3{
+        margin-right: -3.5rem;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .phone img{
+        background-image: url('./../../assets/svg/background.svg');
+        width: 21rem;
+        height: 21rem;
+        margin-left: 1.5rem;
+    }
+
+}

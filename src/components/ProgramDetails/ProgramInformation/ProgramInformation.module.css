@@ -34,12 +34,18 @@
   .section {
     width: 25rem;
     margin-left: 0.1rem;
-
   }
 
   .section h2 {
-      font-size: 1.3rem;
-     margin-left: 1.5rem;
-     font-weight: 600;
+    font-size: 1.3rem;
+    margin-left: 1.5rem;
+    font-weight: 600;
   }
+}
+
+@media (max-width: 425px) {
+    .section{
+        width: 23rem;
+    }
+
 }

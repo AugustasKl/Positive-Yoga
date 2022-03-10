@@ -77,3 +77,11 @@
     padding: 0.2rem 0;
   }
 }
+
+@media (max-width: 375px) {
+    .comment {
+        height: 16rem;
+        width: 19rem;
+        font-size: 0.95rem;
+      }
+}

@@ -23,3 +23,11 @@
     }
 
   }
+
+  @media (max-width: 375px) {
+    .button{
+      padding: 1rem 0;
+      width: 21.5rem;
+    }
+
+  }

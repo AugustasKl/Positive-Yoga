@@ -26,3 +26,10 @@
         margin-left: 1.5rem;
     }
 }
+
+@media (max-width: 375px) {
+    .list h3{
+        font-size: 1.2rem;
+        margin-left: 1.8rem;
+    }
+}

@@ -18,14 +18,13 @@
   list-style: none;
 }
 
-.header{
+.header {
   margin-top: -1.5rem;
   margin-left: 3rem;
-  
 }
 .header h2 {
   font-weight: 800;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   line-height: 0.8rem;
 }
 
@@ -51,44 +50,48 @@
 }
 
 @media (max-width: 1024px) {
-  .form{
+  .form {
     margin-left: 5rem;
   }
-  .header{
+  .header {
     line-height: 0.8rem;
   }
 }
 
-@media (max-width:768px)  { 
-.form{
-  font-size: 0.65rem;
-  margin-right: -6rem;
-}
-.header h2{
-  line-height: 0.6rem;
-}
-.button{
-  font-size: 0.8rem;
-}
+@media (max-width: 768px) {
+  .form {
+    font-size: 0.65rem;
+    margin-right: -6rem;
+  }
+  .header h2 {
+    line-height: 0.6rem;
+  }
+  .button {
+    font-size: 0.8rem;
+  }
 }
 @media (max-width: 425px) {
-  .form{
+  .form {
     font-size: 0.75rem;
-    
   }
-  
-  .header h2{
+  .header h2 {
     line-height: 0.85rem;
     font-size: 1.5rem;
     font-weight: 600;
-    margin-left: 0.1rem;
+    margin-left: -0.5rem;
   }
-  .button{
+  .button {
     font-size: 1rem;
     padding: 1.2rem 0;
   }
+}
+@media (max-width: 375px) {
+  .header h2{
+    margin-left: -0.4rem;
   }
-
-
-
-
+  .button {
+    font-size: 1rem;
+    padding: 1rem 0;
+    width: 21.5rem;
+  }
+    } 

@@ -47,3 +47,14 @@ width: 12rem;
 ;
       }
 }
+
+@media (max-width: 375px) {
+  .paragraph{
+    width: 20rem;
+  }
+
+  .paragraph  img{
+    width: 17rem;
+;
+      }
+}
