@@ -3,9 +3,10 @@ import classes from './ProgramInformation.module.css'
 import { PROGRAM_DUMMY_DATA } from '../../../DUMMY_DATA/dummyProgram'
 import ProgramInformationItem from './ProgramInformationItem'
 
+// ProgramInformation component takes PROGRAM_DUMMY_DATA data maps over it
+// and passes as props to ProgramInforamtion component
+
 const ProgramInformation=()=>{
-
-
     return(
         <React.Fragment>
             <div className={classes.section}>

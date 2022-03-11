@@ -29,3 +29,10 @@
     font-weight: 400;
 }
 }
+
+@media (max-width: 375px) {
+    .offer h2{
+        font-size: 1.5rem;
+        
+    }
+    }

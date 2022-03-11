@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "./Header";
-import Promo from "./Promo";
+import Header from "./Header/Header";
+import Promo from "./Promo/Promo";
 
 const Layout=(props)=>{
 

@@ -5,7 +5,7 @@ const Message =()=>{
 
     return(
     <React.Fragment>
-        <section className={classes.msg}>
+        <section className={classes.message}>
         <span>Over <b>52 147</b> plans ordered.</span>
         </section>
         </React.Fragment>

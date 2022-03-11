@@ -8,53 +8,49 @@
   line-height: 0.7rem;
   font-family: "Open Sans";
 }
-.paragraph  img{
-    width: 15rem;
-    height: auto;
+.paragraph img {
+  width: 15rem;
+  height: auto;
 }
-.paragraph a{
-    text-decoration: none;
+.paragraph a {
+  text-decoration: none;
 }
 
 @media (max-width: 1024px) {
-  .paragraph{
+  .paragraph {
     margin-right: -5rem;
   }
 }
 
 @media (max-width: 768px) {
-
-  .paragraph{
+  .paragraph {
     width: 60%;
     margin-left: 8rem;
     font-size: 0.5rem;
-
   }
-  .paragraph  img{
-width: 12rem;
+  .paragraph img {
+    width: 12rem;
   }
 }
 
 @media (max-width: 425px) {
-  .paragraph{
+  .paragraph {
     width: 23rem;
     font-size: 0.8rem;
     line-height: 1rem;
     margin-bottom: 3rem;
   }
-  .paragraph  img{
+  .paragraph img {
     width: 20rem;
-;
-      }
+  }
 }
 
 @media (max-width: 375px) {
-  .paragraph{
+  .paragraph {
     width: 20rem;
   }
 
-  .paragraph  img{
+  .paragraph img {
     width: 17rem;
-;
-      }
+  }
 }

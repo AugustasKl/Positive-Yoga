@@ -1,5 +1,8 @@
 import classes from './SubscriptionMessage.module.css'
 import payments from '../../../assets/svg/payments.svg'
+
+
+//SubscriptionMessage component is responsible for rendering two strings and an image 
 const SubscriptionMessage =()=>{
 
     return(

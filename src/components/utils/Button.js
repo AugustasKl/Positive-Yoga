@@ -11,13 +11,7 @@ const buttonHandler=()=>{
                 behavior: 'smooth'
               })
         }
-        else{
-            console.log(props.data)
-        }
     }
-
-  
-
     return(
         <button className={classes.button} onClick={buttonHandler}>{props.children}</button>
     )

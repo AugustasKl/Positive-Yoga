@@ -1,5 +1,9 @@
 import React from "react";
 import classes from './ProgramInformationItem.module.css'
+
+//ProgramInformationItem component destructures received data from ProgramInformation
+// component and uses it to render program's benefits.
+
 const ProgramInformationItem = (props) => {
   const { title, image, paragraph } = props;
 
